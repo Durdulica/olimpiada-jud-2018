@@ -148,6 +148,7 @@
             this.btnInapoi.TabIndex = 4;
             this.btnInapoi.Text = "Inapoi";
             this.btnInapoi.UseVisualStyleBackColor = true;
+            this.btnInapoi.Click += new System.EventHandler(this.btnInapoi_Click);
             // 
             // btnManual
             // 
@@ -168,6 +169,7 @@
             this.btnInainte.TabIndex = 5;
             this.btnInainte.Text = "Inainte";
             this.btnInainte.UseVisualStyleBackColor = true;
+            this.btnInainte.Click += new System.EventHandler(this.btnInainte_Click);
             // 
             // lblSlideshow
             // 
